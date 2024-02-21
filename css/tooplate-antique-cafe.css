@@ -126,7 +126,37 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
     font-size: 1.2rem;
     line-height: 2rem;
 }
+.tm-menu-item img{
+    max-width: 160px;
+    max-height: 120px;
 
+}
+.tm-menu-item-2 img{
+    max-width: 160px;
+    max-height: 120px;
+
+}
+
+
+/*
+carousel css
+ */
+
+.carousel-container {
+    overflow: hidden;
+}
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-item {
+    min-width: 100%;
+    max-height: 750px;
+    box-sizing: border-box;
+}
+/*
+end carousel css
+ */
 @media (min-width: 768px) {
     #tm-nav.scroll .tm-container {
         padding-top: 10px;
